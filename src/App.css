@@ -1,3 +1,19 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  /* Colors */
+  --white: #FFFFFF;
+  --grey-bg: #3C3C3C;
+  --black-bg: rgba(12, 12, 12, .7);
+  --purple: #9D8DF1;
+  --green: #1CFEBA;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  color: var(--white);
+  background-color: var(--grey-bg);
 }
