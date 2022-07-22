@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { TitleMedium } from '../../utils/typography/Typography';
+import Menu from './menu/Menu';
 
 const AsideMenu = styled.aside`
   width: 20vw;
@@ -22,6 +23,7 @@ export default function Aside() {
     <AsideMenu>
       <TitleMedium>MakeItEasy</TitleMedium>
       <Divider/>
+      <Menu/>
     </AsideMenu>
   )
 }

@@ -10,6 +10,7 @@ export const TitleMedium = styled.h2`
 
 export const TitleSmall = styled.h3`
     font-size: 1.563rem;
+    margin: 0;
 `
 
 export const TitleExtraSmall = styled.h4`

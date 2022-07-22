@@ -1,0 +1,8 @@
+.active {
+    background-color: var(--white-bg);
+
+    & div {
+        background-color: var(--green);
+        filter: blur(2px);
+    }
+}

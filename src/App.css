@@ -7,6 +7,7 @@
 :root {
   /* Colors */
   --white: #FFFFFF;
+  --white-bg: rgba(255, 255, 255, .1);
   --grey-bg: #3C3C3C;
   --black-bg: rgba(12, 12, 12, .7);
   --purple: #9D8DF1;
