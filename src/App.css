@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans:wght@600&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -16,4 +18,16 @@ html, body {
   padding: 0;
   color: var(--white);
   background-color: var(--grey-bg);
+  z-index: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 }

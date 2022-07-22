@@ -3,8 +3,8 @@ import styled from 'styled-components';
 
 const SVG = styled.svg`
 	position: absolute;
-	z-index: 0;
-	//filter: blur(70px);
+	z-index: 1;
+	filter: blur(70px);
 `
 
 const SVGPurple = styled(SVG)`

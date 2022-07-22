@@ -1,12 +1,14 @@
 import './App.css';
-import Menu from './components/aside/Menu';
+import Aside from './components/aside/Aside';
 import Background from './components/background/Background';
+import MainContainer from './components/mainContainer/MainContainer';
 
 function App() {
   return (
     <div className="App">
      <Background/>
-     <Menu/>
+     <Aside/>
+     <MainContainer/>
     </div>
   );
 }
